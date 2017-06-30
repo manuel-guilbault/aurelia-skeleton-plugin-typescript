@@ -1,0 +1,1 @@
+{"name":"aurelia-skeleton-plugin","children":[{"id":2,"name":"HelloWorld","kind":128,"kindString":"Class","flags":{"isExported":true},"sources":[{"fileName":"src/hello-world.ts","line":1,"character":23}]}],"groups":[{"title":"Classes","kind":128,"children":[2]}]}
