@@ -56,3 +56,16 @@ To run the unit tests, first ensure that you have followed the steps above in or
   ```shell
   karma start
   ```
+
+## Installing the plugin
+
+### In a CLI-based app
+
+```json
+{
+  "name": "aurelia-skeleton-plugin-typescript",
+  "path": "../node_modules/aurelia-skeleton-plugin-typescript/dist/amd",
+  "main": "index",
+  "resources": ["**/*.{css,html}"]
+}
+```
