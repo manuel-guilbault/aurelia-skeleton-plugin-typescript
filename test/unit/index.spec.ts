@@ -1,7 +1,7 @@
 import { FrameworkConfiguration } from 'aurelia-framework';
 import { configure } from '../../src/index';
 
-describe('the Aurelia configuration', () => {
+describe('the configure function', () => {
 
   let configuration: FrameworkConfiguration;
 
@@ -13,5 +13,4 @@ describe('the Aurelia configuration', () => {
     configure(configuration);
     expect(configuration.globalResources).toHaveBeenCalledWith(['./hello-world']);
   });
-
 });

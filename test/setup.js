@@ -72,11 +72,6 @@ require.config({
       name: 'aurelia-testing',
       location: '/base/node_modules/aurelia-testing/dist/amd',
       main: 'aurelia-testing'
-    },
-    // {
-    //   name: 'dist/test/src/aurelia-validation',
-    //   location: '/base/dist/test/src',
-    //   main: 'aurelia-validation'
-    // }
+    }
   ]
 });
